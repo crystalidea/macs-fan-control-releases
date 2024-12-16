@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.13" Author="CrystalIdea Team">
+    <MainWindow>
+        <staticSensorsListHeader>Temperature sensors:</staticSensorsListHeader>
+        <listColumnFan>Fan</listColumnFan>
+        <listColumnRPM>Min/Current/Max RPM</listColumnRPM>
+        <listColumnControl>Control</listColumnControl>
+        <listColumnSensor>Sensor</listColumnSensor>
+        <listColumnSensorValue>Value</listColumnSensorValue>
+        <listSeparatorDrives>Disk Drives:</listSeparatorDrives>
+        <popupMenuItemControl>Change control...</popupMenuItemControl>
+        <popupMenuItemReset>Reset to automatic control</popupMenuItemReset>
+        <fanControlAutomatic>Auto</fanControlAutomatic>
+        <fanControlAutomaticInfo>Automatic (controlled by system)</fanControlAutomaticInfo>
+        <fanControlConstant>Constant value of %1</fanControlConstant>
+        <fanControlSensor>Based on %1</fanControlSensor>
+        <fanControlUnknown>Unknown!</fanControlUnknown>
+        <buttonFanControlCustom>Custom...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+        <buttonMinimize>Minimise</buttonMinimize>
+        <buttonMinimizeMac>Hide to menu bar</buttonMinimizeMac>
+        <buttonPreferences>Preferences...</buttonPreferences>
+        <buttonAbout>About...</buttonAbout>
+        <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you only wish to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. Make sure to enter the administrator password when asked.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>No fans detected, please try to [reset the SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer does not have any fans and is cooled passively</messageNoFansAvailable>
+    </MainWindow>
+    <FanControlDialog>
+        <title>Change fan control for the '%1' fan</title>
+        <radioConstant>Constant RPM value</radioConstant>
+        <radioSensor>Sensor-based value</radioSensor>
+        <staticIncrease>Temperature that the fan speed will start to increase from:</staticIncrease>
+        <staticMax>Maximum temperature:</staticMax>
+        <statusWarning>Something is wrong - min/max fan values are equal (%1).&lt;br/&gt; Please make sure to uninstall any other fan-controlling software and to reset the SMC.</statusWarning>
+        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>Active preset:</activePresetLabel>
+        <presetAutomatic>Automatic</presetAutomatic>
+        <presetFullBlast>Full blast</presetFullBlast>
+        <presetCurrentUnsaved>Custom*</presetCurrentUnsaved>
+        <presetMenuSave>Save...</presetMenuSave>
+        <presetMenuRename>Rename</presetMenuRename>
+        <presetMenuDelete>Delete</presetMenuDelete>
+        <presetMenuPredefined>Predefined presets:</presetMenuPredefined>
+        <presetMenuCustom>Custom presets:</presetMenuCustom>
+        <presetMenuApply>Apply</presetMenuApply>
+        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
+        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
+        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
+        <labelPresetName>Preset name:</labelPresetName>
+        <savePresetTitle>Save custom preset</savePresetTitle>
+        <editPresetTitle>Edit preset name</editPresetTitle>
+        <presetCreateNew>New...</presetCreateNew>
+        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
+        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change the control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change the control for at least one of your fans as all of them are currently spinning at full blast, matching the existing '%1' preset.</presetCreateNewMessage2>
+        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Upgrade to Macs Fan Control Pro</title>
+        <proInfo1>The Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
+        <proInfo2>If you already purchased the app, please press the 'Enter Licence' button below.</proInfo2>
+        <buttonPurchase>Purchase</buttonPurchase>
+        <buttonEnterLicense>Enter Licence</buttonEnterLicense>
+        <buttonLater>Later</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Unlock Pro version</title>
+        <infoText>If you already purchased Macs Fan Control, enter your email address and licence key from your email receipt into the boxes below. This will fully unlock the Pro features of Macs Fan Control.</infoText>
+        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
+        <email>Email Address</email>
+        <licenseKey>Licence Key</licenseKey>
+        <buttonUnlock>Unlock</buttonUnlock>
+        <buttonRestoreLicense>Restore Licence</buttonRestoreLicense>
+        <invalidLicenseTitle>Invalid licence!</invalidLicenseTitle>
+        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you are typing the characters by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
+        <invalidLicenseMismatchOS>This licence key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
+        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>All of the limitations of the Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrayMenu>
+        <itemShow>Show Macs Fan Control</itemShow>
+        <itemAvailableFans>Available fans:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
+        <itemMoreLinks>More</itemMoreLinks>
+        <itemWebsite>Website</itemWebsite>
+        <itemCheckForUpdates>Check for updates...</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
+        <itemRateApp>Rate on MacUpdate</itemRateApp>
+        <itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+        <itemUninstall>Uninstall...</itemUninstall>
+        <itemExit>Exit</itemExit>
+        <itemExitMac>Quit Macs Fan Control</itemExitMac>
+        <itemSensorBased>Sensor-based</itemSensorBased>
+        <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
+    </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
+    <PreferencesWindow>
+        <title>Preferences</title>
+        <TabGeneral>General</TabGeneral>
+        <tabTrayIcon>Tray icon</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
+        <tabTrayIconMac>Menu bar display</tabTrayIconMac>
+        <tabDiagnostics>Diagnostics</tabDiagnostics>
+        <staticLanguage>Language:</staticLanguage>
+        <checkSystemStart>Autostart minimised when you log in (recommended)</checkSystemStart>
+        <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkFahrenheit>Use Fahrenheit temperature scale</checkFahrenheit>
+        <checkPrecise>Precise display of temperature when possible (e.g. 45.4)</checkPrecise>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <staticSensor>Sensor:</staticSensor>
+        <staticFan>Fan:</staticFan>
+        <staticIcon>Icon:</staticIcon>
+        <comboIconOptionShow>Coloured</comboIconOptionShow>
+        <comboIconOptionShowBW>Monochrome</comboIconOptionShowBW>
+        <comboOptionNone>None</comboOptionNone>
+        <checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(Celsius only)</staticCelsiusOnlyOnWindows>
+        <checkLog>Enable log (restart required)</checkLog>
+        <browseLog>Browse</browseLog>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>About Macs Fan Control</title>
+        <staticTechnicalSupport>Technical support on the forum</staticTechnicalSupport>
+        <staticOnlineHelp>Online help</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
+        <staticWarning>THIS PROGRAM IS FOR ADVANCED USERS WHO KNOW HOW TO USE IT WITHOUT DOING HARM TO THEIR MAC. THE AUTHORS ARE NOT LIABLE FOR DATA LOSS, DAMAGES, PROFIT LOSS OR ANY OTHER TYPES OF LOSSES CAUSED BY THE USE OR MISUSE OF THIS PROGRAM</staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>Rate the app on MacUpdate</message>
+        <informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+        <buttonRate>Rate on MacUpdate</buttonRate>
+        <buttonNoThanks>No, thanks</buttonNoThanks>
+        <checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+    </RateMeDialog>
+    <UninstallDialog>
+        <title>Uninstall Macs Fan Control?</title>
+        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
+        <authorizeText>Please authorise the app to be able to uninstall the fan helper tool.</authorizeText>
+        <buttonUninstall>Uninstall</buttonUninstall>
+    </UninstallDialog>
+    <Common>
+        <buttonClose>Close</buttonClose>
+        <buttonOK>OK</buttonOK>
+        <buttonCancel>Cancel</buttonCancel>
+        <buttonContinue>Continue</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>released on %1</ReleasedOn>
+            <CheckForUpdates>Check for updates...</CheckForUpdates>
+            <NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+            <UpdateAlertTitle>Software Update</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+            <UpdateAlertInstall>Install Update</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+            <MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+            <UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Cancel</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 of %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Could not move to the Applications folder</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Move to the Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Undo</actionUndo>
+            <actionRedo>Redo</actionRedo>
+            <actionCut>Cut</actionCut>
+            <actionCopy>Copy</actionCopy>
+            <actionPaste>Paste</actionPaste>
+            <actionDelete>Delete</actionDelete>
+            <actionSelectAll>Select All</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Cancel</buttonCancel>
+            <buttonClose>Close</buttonClose>
+            <buttonYes>Yes</buttonYes>
+            <buttonNo>No</buttonNo>
+        </QMessageBoxEx>
+    </core>
+</LanguageStrings>
